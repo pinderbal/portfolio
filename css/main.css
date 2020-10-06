@@ -1,0 +1,380 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #A3AAD6; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7E88C5; 
+}
+
+html{
+	/*font-family: 'Montserrat', sans-serif;*/
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Prompt', sans-serif;
+	background: #3b3050;
+}
+
+span {
+	/*color: #16bac5;*/
+	color: #A3AAD6;
+}
+
+form label {
+	color: #A3AAD6;
+}
+
+.tooltip-inner {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+body .tooltip .arrow::before {
+  border-bottom-color: white;
+}
+
+.div-body{
+	background: #2b3361;
+	background: -webkit-linear-gradient(to bottom, #2b3361, #3b3050); 
+	background: linear-gradient(to bottom, #2b3361, #3b3050);
+	margin: 0;
+	padding: 0; 
+	/*background: -webkit-linear-gradient(to bottom, #2b3361, #462F46); 
+	background: linear-gradient(to bottom, #2b3361, #462F46);*/
+	/*background: -webkit-linear-gradient(to bottom, #2b3361, #3A3152); 
+	background: linear-gradient(to bottom, #2b3361, #3A3152);*/
+	/*background: -webkit-linear-gradient(to bottom, #2b3361, #3E304E); 
+	background: linear-gradient(to bottom, #2b3361, #3E304E);*/
+}
+
+.jumbo-test {
+	margin: 0;
+	padding: 0;
+	display: flex;
+ 	align-items: center;
+}
+
+.avatar {
+	width: 30%;
+	height: auto;
+}
+
+.navbar {
+  background: none;
+  text-transform: lowercase;
+}
+
+.navbar-right > li {
+  float: left;
+}
+
+.navbar a {
+	color: white;
+	font-family: 'Prompt', sans-serif;
+	font-weight:bold;
+	font-size:1rem;
+	/*margin-right: 10px*/
+}
+
+.navbar a:hover{
+	color: #a3aad6;
+}
+
+.display-4 {
+	font-family: 'Prompt', sans-serif;
+	font-weight:bold;
+	color: white;
+	font-size: 55px;
+    text-shadow: 4px 4px #1c1a42;
+    letter-spacing: 1px;
+    /*margin-bottom: 1%;*/
+}
+
+.lead {
+	font-family: 'Prompt', sans-serif;
+	font-weight:bold;
+	margin: 0 auto; /* center element horizontally */
+ 	text-align: center;
+	/*color: #1c1a42;*/
+	/*color: #BDC667;*/
+	color: white;
+	/*color: #16bac5;*/
+	font-size: 25px;
+    width: 70%;
+    text-shadow: black 2px 2px 5px;
+}
+
+/*--------------------------------------*/
+.jumbo-info .btn-resume {
+	background-color: #a3aad6;
+	font-weight:bold;
+	margin-top:1%;
+}
+
+.btn-resume:hover {
+   background: #7E88C5;
+   color: white;
+}
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+
+  width: 125px;
+  overflow: hidden;
+}
+
+
+.effect.effect-3 {
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-3:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f381";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-3:hover {
+  text-indent: -9999px;
+}
+.effect.effect-3:hover:before {
+  top: 0;
+  text-indent: 0;
+}
+/*--------------------------------------*/
+
+
+
+
+.heading h1 {
+	font-size: 55px;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.heading h5 {
+	font-weight:400;
+	/*color: #16bac5 ;*/
+	color: #A3AAD6;
+	letter-spacing: .2rem;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.heading p img {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-image: url("../img/hero.jpg");
+	background-position: center top;
+  	background-size: cover;
+ 	/* margin-bottom: 10rem; */
+}
+
+.jumbotron .container {
+	color: white;
+	height: 90vh;
+	text-align: center;
+}
+
+.section {
+	font-weight:bold;
+	padding-top: 10rem;
+	/*color: #16bac5;*/
+	color: white;
+}
+
+#skills .section {
+	margin-bottom: 17rem;
+}
+
+#html5 {
+	width: 55px;
+	height: auto;
+}
+
+#css3 {
+	width: 66px;
+	height:auto;
+}
+
+#javascript{
+	width: 58px;
+	height: auto;
+}
+
+#php {
+	width: 70px;
+	height:auto;
+}
+
+#mysql {
+	width: 65px;
+	height:auto;
+}
+
+#bootstrap {
+	width: 65px;
+	height:auto;
+}
+
+#git {
+	width: 60px;
+	height:auto;
+}
+
+#photoshop {
+	width: 50px;
+	height:auto;
+}
+
+#projects .section {
+	margin-bottom: 5rem;
+	padding:0;
+}
+
+.contact-container {
+	width: 30%;
+}
+
+
+
+.btn {
+	background-color: #A3AAD6;
+	color: white;
+}
+
+.form-btn:hover {
+	background-color: #7E88C5;
+	color: white;
+}
+
+#bottom-hero{
+    background-image: url("../img/water2.png");
+    background-position: center bottom;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+ 	bottom: 0;
+  	width: 100%;
+ 	height: 150px;
+ 	line-height: 60px; /* Vertically center the text there */
+  	text-align: center;
+	/*margin-top: 10rem;*/
+	background-color: #0e4d44;
+	position: relative;
+}
+
+.footer div {
+	bottom: 0px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+
+.project-item{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.project-item img{
+	width: 100%;
+	height: auto;
+
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.project-content {
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+ 	opacity: 0;
+  	position: absolute;
+  	top: 25%;
+  	left: 25%;
+  	transform: translate(-25%, -25%);
+  	-ms-transform: translate(-25%, -25%);
+ 	text-align: center;
+}
+
+.project-item:hover img {
+	opacity: 0.3;
+}
+
+.project-item:hover .project-content {
+	opacity: 1;
+}
+
+.project-text {
+	position: relative;
+	color: white;
+	font-size: 1vh;
+	padding: 16px 32px;
+}
+
+.project-text button{
+	font-size: 2vh;
+}
+
+.project-text h3 {
+	color: #a3aad6;
+}
+
+.btn-demo {
+	background-color: #A3AAD6;
+	color: white;
+	margin-right: 1%;
+	font-weight:bold;
+}
+
+.btn-code {
+	background-color: #6C77BD;
+	color: white;
+	margin-left: 1%;
+	font-weight:bold;
+}
+
