@@ -12,7 +12,7 @@ sr.reveal('.jumbo-info',{});
 
 sr.reveal('.skills-title',{}); 
 sr.reveal('.skills-description',{delay: 200}); 
-sr.reveal('.skill-img',{ interval: 70});
+sr.reveal('.section img',{ interval: 70});
 
 sr.reveal('.projects-title',{}); 
 sr.reveal('.projects-description',{delay: 200});
