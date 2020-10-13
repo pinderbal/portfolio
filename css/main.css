@@ -4,6 +4,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
+@media (min-width: 576px) {
+	.contact-container {
+		width: 100%;
+	}
+
+	.display-4 {
+		font-size: 20px;
+	}
+
+	.lead {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.contact-container {
+		width: 100%;
+	}
+
+	.display-4 {
+		font-size: 20px;
+	}
+
+	.lead {
+		font-size: 15px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.contact-container {
+		width: 30%;
+	}
+
+	.display-4 {
+		font-size: 55px;
+	}
+
+	.lead {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.contact-container {
+		width: 30%;
+	}
+
+	.display-4 {
+		font-size: 55px;
+	}
+
+	.lead {
+		font-size: 25px;
+	}
+
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -27,6 +85,7 @@
 html{
 	/*font-family: 'Montserrat', sans-serif;*/
 	scroll-behavior: smooth;
+	overflow-x:hidden;
 }
 
 body {
@@ -104,7 +163,7 @@ body .tooltip .arrow::before {
 	font-family: 'Prompt', sans-serif;
 	font-weight:bold;
 	color: white;
-	font-size: 55px;
+	/*font-size: 55px;*/
     text-shadow: 4px 4px #1c1a42;
     letter-spacing: 1px;
     /*margin-bottom: 1%;*/
@@ -119,7 +178,7 @@ body .tooltip .arrow::before {
 	/*color: #BDC667;*/
 	color: white;
 	/*color: #16bac5;*/
-	font-size: 25px;
+	/*font-size: 25px;*/
     width: 70%;
     text-shadow: black 2px 2px 5px;
 }
@@ -215,13 +274,13 @@ body .tooltip .arrow::before {
 
 .section {
 	font-weight:bold;
-	padding-top: 10rem;
+	padding-top: 5rem;
 	/*color: #16bac5;*/
 	color: white;
 }
 
 #skills .section {
-	margin-bottom: 17rem;
+	margin-bottom: 12rem;
 }
 
 #html5 {
@@ -269,9 +328,9 @@ body .tooltip .arrow::before {
 	padding:0;
 }
 
-.contact-container {
+/*.contact-container {
 	width: 30%;
-}
+}*/
 
 
 
@@ -377,4 +436,7 @@ body .tooltip .arrow::before {
 	margin-left: 1%;
 	font-weight:bold;
 }
+
+
+
 
