@@ -82,7 +82,7 @@
   background: #7E88C5; 
 }
 
-html{
+html, body{
 	/*font-family: 'Montserrat', sans-serif;*/
 	scroll-behavior: smooth;
 	overflow-x:hidden;
@@ -91,6 +91,7 @@ html{
 body {
 	font-family: 'Prompt', sans-serif;
 	background: #3b3050;
+	position: relative
 }
 
 span {
