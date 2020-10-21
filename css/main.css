@@ -24,11 +24,11 @@
 	}
 
 	.display-4 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.lead {
-		font-size: 15px;
+		font-size: 20px;
 	}
 }
 
@@ -142,6 +142,7 @@ body .tooltip .arrow::before {
 .navbar {
   background: none;
   text-transform: lowercase;
+  inline: block;
 }
 
 .navbar-right > li {
