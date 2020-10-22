@@ -313,18 +313,26 @@ body .tooltip .arrow::before {
 	color: #a3aad6;
 }
 
-.btn-demo {
+.project-item .btn-demo {
 	background-color: #A3AAD6;
 	color: white;
 	margin-right: 1%;
-	font-weight:bold;
+	font-weight: 600;
 }
 
-.btn-code {
+.project-item .btn-code {
 	background-color: #6C77BD;
 	color: white;
-	margin-left: 1%;
-	font-weight:bold;
+	margin-right: 1%;
+	font-weight: 600;
+}
+
+.project-item .btn-code:hover {
+	color: black;
+}
+
+.project-item .btn-demo:hover {
+	color: black;
 }
 /*------- End of Projects -------*/
 
