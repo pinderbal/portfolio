@@ -1,67 +1,61 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
 
-@media (min-width: 576px) {
-	.contact-container {
-		width: 100%;
-	}
-
-	.display-4 {
-		font-size: 20px;
-	}
-
-	.lead {
-		font-size: 15px;
-	}
+html, body{
+	scroll-behavior: smooth;
+	overflow-x:hidden;
 }
 
-@media (min-width: 768px) {
-	.contact-container {
-		width: 100%;
-	}
-
-	.display-4 {
-		font-size: 25px;
-	}
-
-	.lead {
-		font-size: 20px;
-	}
+body {
+	font-family: 'Prompt', sans-serif;
+	background: #3b3050;
+	position: relative
 }
 
-
-@media (min-width: 992px) {
-	.contact-container {
-		width: 30%;
-	}
-
-	.display-4 {
-		font-size: 55px;
-	}
-
-	.lead {
-		font-size: 25px;
-	}
+span {
+	color: #A3AAD6;
 }
 
-@media (min-width: 1200px) {
-	.contact-container {
-		width: 30%;
-	}
-
-	.display-4 {
-		font-size: 55px;
-	}
-
-	.lead {
-		font-size: 25px;
-	}
-
+form label {
+	color: #A3AAD6;
 }
 
+body .tooltip .arrow::before {
+  border-bottom-color: white;
+}
+
+.div-body {
+	background: #2b3361;
+	background: -webkit-linear-gradient(to bottom, #2b3361, #3b3050); 
+	background: linear-gradient(to bottom, #2b3361, #3b3050);
+	margin: 0;
+	padding: 0; 
+}
+
+.section {
+	font-weight:bold;
+	padding-top: 5rem;
+	color: white;
+}
+
+/*------ Section Headings ------*/
+.heading h1 {
+	font-size: 55px;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.heading h5 {
+	color: #A3AAD6;
+	letter-spacing: .2rem;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 2rem;
+}
+/*---End of Section Headings ---*/
+
+
+/*--------- Scroll bar ---------*/
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -81,64 +75,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #7E88C5; 
 }
+/*-------End of Scroll bar------*/
 
-html, body{
-	/*font-family: 'Montserrat', sans-serif;*/
-	scroll-behavior: smooth;
-	overflow-x:hidden;
-}
 
-body {
-	font-family: 'Prompt', sans-serif;
-	background: #3b3050;
-	position: relative
-}
-
-span {
-	/*color: #16bac5;*/
-	color: #A3AAD6;
-}
-
-form label {
-	color: #A3AAD6;
-}
-
-.tooltip-inner {
-    color: black;
-    background-color: white;
-    font-weight: bold;
-}
-
-body .tooltip .arrow::before {
-  border-bottom-color: white;
-}
-
-.div-body{
-	background: #2b3361;
-	background: -webkit-linear-gradient(to bottom, #2b3361, #3b3050); 
-	background: linear-gradient(to bottom, #2b3361, #3b3050);
-	margin: 0;
-	padding: 0; 
-	/*background: -webkit-linear-gradient(to bottom, #2b3361, #462F46); 
-	background: linear-gradient(to bottom, #2b3361, #462F46);*/
-	/*background: -webkit-linear-gradient(to bottom, #2b3361, #3A3152); 
-	background: linear-gradient(to bottom, #2b3361, #3A3152);*/
-	/*background: -webkit-linear-gradient(to bottom, #2b3361, #3E304E); 
-	background: linear-gradient(to bottom, #2b3361, #3E304E);*/
-}
-
-.jumbo-test {
-	margin: 0;
-	padding: 0;
-	display: flex;
- 	align-items: center;
-}
-
-.avatar {
-	width: 30%;
-	height: auto;
-}
-
+/*----------- Navbar -----------*/
 .navbar {
   background: none;
   text-transform: lowercase;
@@ -152,13 +92,27 @@ body .tooltip .arrow::before {
 .navbar a {
 	color: white;
 	font-family: 'Prompt', sans-serif;
-	font-weight:bold;
+	font-weight:500;
 	font-size:1rem;
-	/*margin-right: 10px*/
 }
 
 .navbar a:hover{
 	color: #a3aad6;
+}
+/*-------- End of Navbar -------*/
+
+
+/*---------- Jumbotron ---------*/
+.jumbo {
+	margin: 0;
+	padding: 0;
+	display: flex;
+ 	align-items: center;
+}
+
+.avatar {
+	width: 30%;
+	height: auto;
 }
 
 .display-4 {
@@ -173,29 +127,38 @@ body .tooltip .arrow::before {
 
 .lead {
 	font-family: 'Prompt', sans-serif;
-	font-weight:bold;
-	margin: 0 auto; /* center element horizontally */
+	font-weight:700;
+	margin: 0 auto; 
  	text-align: center;
-	/*color: #1c1a42;*/
-	/*color: #BDC667;*/
 	color: white;
-	/*color: #16bac5;*/
-	/*font-size: 25px;*/
     width: 70%;
     text-shadow: black 2px 2px 5px;
 }
 
-/*--------------------------------------*/
 .jumbo-info .btn-resume {
 	background-color: #a3aad6;
 	font-weight:bold;
 	margin-top:1%;
 }
 
+.jumbotron {
+	height: 100vh;
+	background-image: url("../img/hero.jpg");
+	background-position: center top;
+  	background-size: cover;
+}
+
+.jumbotron .container {
+	color: white;
+	height: 90vh;
+	text-align: center;
+}
+
 .btn-resume:hover {
    background: #7E88C5;
    color: white;
 }
+
 .effect {
   text-align: center;
   display: inline-block;
@@ -205,7 +168,6 @@ body .tooltip .arrow::before {
   width: 125px;
   overflow: hidden;
 }
-
 
 .effect.effect-3 {
   transition: all 0.2s linear 0s;
@@ -233,52 +195,19 @@ body .tooltip .arrow::before {
   top: 0;
   text-indent: 0;
 }
-/*--------------------------------------*/
+/*----- End of Jumbotron -------*/
 
 
-
-
-.heading h1 {
-	font-size: 55px;
-	font-weight: bold;
-	margin-bottom: 2rem;
-}
-
-.heading h5 {
-	font-weight:400;
-	/*color: #16bac5 ;*/
-	color: #A3AAD6;
-	letter-spacing: .2rem;
-	text-align: center;
-	font-size: 22px;
-	font-weight: bold;
-	margin-bottom: 2rem;
+/*------- Skills Section -------*/
+.tooltip-inner {
+    color: black;
+    background-color: white;
+    font-weight: bold;
 }
 
 .heading p img {
 	margin-left: 5px;
 	margin-right: 5px;
-}
-
-.jumbotron {
-	height: 100vh;
-	background-image: url("../img/hero.jpg");
-	background-position: center top;
-  	background-size: cover;
- 	/* margin-bottom: 10rem; */
-}
-
-.jumbotron .container {
-	color: white;
-	height: 90vh;
-	text-align: center;
-}
-
-.section {
-	font-weight:bold;
-	padding-top: 5rem;
-	/*color: #16bac5;*/
-	color: white;
 }
 
 #skills .section {
@@ -324,54 +253,13 @@ body .tooltip .arrow::before {
 	width: 50px;
 	height:auto;
 }
+/*-------- End of Skills --------*/
 
+
+/*------- Project Section -------*/
 #projects .section {
 	margin-bottom: 5rem;
 	padding:0;
-}
-
-/*.contact-container {
-	width: 30%;
-}*/
-
-
-
-.btn {
-	background-color: #A3AAD6;
-	color: white;
-}
-
-.form-btn:hover {
-	background-color: #7E88C5;
-	color: white;
-}
-
-#bottom-hero{
-    background-image: url("../img/water2.png");
-    background-position: center bottom;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-.footer {
- 	bottom: 0;
-  	width: 100%;
- 	height: 150px;
- 	line-height: 60px; /* Vertically center the text there */
-  	text-align: center;
-	/*margin-top: 10rem;*/
-	background-color: #0e4d44;
-	position: relative;
-}
-
-.footer div {
-	bottom: 0px;
-	width: 100%;
-	position: absolute;
-	text-align: center;
 }
 
 .project-item{
@@ -438,7 +326,108 @@ body .tooltip .arrow::before {
 	margin-left: 1%;
 	font-weight:bold;
 }
+/*------- End of Projects -------*/
 
 
+/*------- Contact Section -------*/
+.btn {
+	background-color: #A3AAD6;
+	color: white;
+}
+
+.form-btn:hover {
+	background-color: #7E88C5;
+	color: white;
+}
+/*-------- End of Contact -------*/
 
 
+/*-------- Footer Section -------*/
+#bottom-hero{
+    background-image: url("../img/water2.png");
+    background-position: center bottom;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+ 	bottom: 0;
+  	width: 100%;
+ 	height: 150px;
+ 	line-height: 60px; /* Vertically center the text there */
+  	text-align: center;
+	/*margin-top: 10rem;*/
+	background-color: #0e4d44;
+	position: relative;
+}
+
+.footer div {
+	bottom: 0px;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+/*-------- End of footer --------*/
+
+
+/*-------- Media Queries --------*/
+@media (min-width: 576px) {
+	.contact-container {
+		width: 100%;
+	}
+
+	.display-4 {
+		font-size: 20px;
+	}
+
+	.lead {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.contact-container {
+		width: 100%;
+	}
+
+	.display-4 {
+		font-size: 25px;
+	}
+
+	.lead {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.contact-container {
+		width: 30%;
+	}
+
+	.display-4 {
+		font-size: 55px;
+	}
+
+	.lead {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.contact-container {
+		width: 30%;
+	}
+
+	.display-4 {
+		font-size: 55px;
+	}
+
+	.lead {
+		font-size: 25px;
+	}
+
+}
+/*---- End of Media Queries ----*/
