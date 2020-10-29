@@ -7,7 +7,7 @@
 <a href="https://pinderbal.ca/">![screenshot](portfolio.gif?raw=true)</a>
 
 ## Sections
-
+Responsive design
 * Navbar
 * Hero
 * Skills
