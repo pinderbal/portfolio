@@ -8,6 +8,7 @@
 
 ## Sections
 
+* Navbar
 * Hero
 * Skills
 * Projects
